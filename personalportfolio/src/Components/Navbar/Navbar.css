@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Fira+Sans&family=Lato:ital,wght@1,300&family=Phudu:wght@300&family=Roboto:wght@100&family=Source+Code+Pro:wght@300&family=Tilt+Neon&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+
+}
+.part1{
+   background-color: #f4f4f4;
+   width: 50vw;
+   height: 100vh;
+   font-family: 'Tilt Neon', sans-serif;
+}
+.part2{
+  background-color: #d5c455; 
+  width: 50vw;
+  height: 100vh;
+}
+.part1 h2{
+    padding-left: 3.49em;
+    padding-top: 1em;
+    font-weight: bolder;
+    font-size: 2.5em;
+}
+.part1 h1{
+    font-size: 4.5em;
+}
+.heading{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #d5c455;
+}
+.middle{
+    padding-top: 8em;
+    padding-left: 9em;
+}
+.inline{
+    display: flex;
+    margin-top: 1em;
+}
+.MoreAboutMe{
+    background-color: #d5c455;
+    color: white;
+    box-shadow: 0 0.125em 0.1875em rgba(0, 0, 0, 0.2);
+    padding: 0.8em;
+    font-weight: bold;
+    
+}
+.MoreAboutMe:hover{
+    background-color: #afaeae;
+    color: white;
+    cursor: pointer;
+    
+}
+.HireMe{
+    margin-left: 1em;
+    background-color: white;
+    box-shadow: 0 0.125em 0.1875em rgba(0, 0, 0, 0.2);
+    padding: 0.8em;
+    font-weight: bold;
+}
+.HireMe:hover{
+    background-color: #afaeae;
+    color: white;
+    cursor: pointer;
+}
+.part2 img{
+    height: 98.4vh;
+    width: 32em;
+    padding-left: 4em;
+    padding-top: 0.3em;
+}
+.bars{
+    position: absolute;
+    margin-top: 1.5em;
+    margin-left: 4em;
+    cursor: pointer;
+}
+.noBar{
+    display: none;
+}
+.cross{
+    position: absolute;
+    margin-top: 1.5em;
+    margin-left: 4em;
+    cursor: pointer;
+} 
+
+.list{
+    width: 24vh;
+    margin-left: 29.5em;
+    margin-top: 4em;
+    position: absolute;
+    background-color: white;
+    border-radius: 0.12em;
+    display: none;
+}
+.open{
+    right: 7.3em;
+    top: 1.5em;
+    width: 24vh;
+    margin-left: 29.5em;
+    margin-top: 4em;
+    position: absolute;
+    background-color: white;
+    border-radius: 0.12em;
+    display: block;
+    text-decoration: none;
+    
+}
+.ul{
+    padding-left: 1em;
+    font-family: 'Tilt Neon', sans-serif;
+    text-decoration: none;
+}
+.li{
+    list-style: none;
+    text-decoration: none;
+    margin: 1.5em 0;
+    cursor: pointer;
+}
+.noLine{
+    text-decoration: none;
+}

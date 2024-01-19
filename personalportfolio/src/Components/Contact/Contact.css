@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Fira+Sans&family=Lato:ital,wght@1,300&family=Phudu:wght@300&family=Roboto:wght@100&family=Source+Code+Pro:wght@300&family=Tilt+Neon&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.portfolio1{
+    position: absolute;
+    top: 1em;
+    left: 4.55em;
+    font-family: 'Tilt Neon', sans-serif;
+}
+.bigbox{
+    box-shadow: 0 0.125em 0.1875em rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 23em;
+    left: 10em;
+    width: 78em;
+    height: 45em;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Tilt Neon', sans-serif;
+}
+.half1{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}
+.half2{
+    width: 50%;
+    height: 100%;
+}
+.half1 h1{
+    position: absolute;
+    top: 1.3em;
+    left: 1.3em;
+}
+.half1 p{
+    position: absolute;
+    top: 6em;
+    left: 2.63em;
+}
+.details{
+    position: absolute;
+    top: 9.5em;
+    left: 2.65em;
+    display: flex;
+    justify-content: space-between;
+    width: 30em;
+}
+.moredetails{
+    position: absolute;
+    top: 11.5em;
+    left: 2.6em;
+    display: flex;
+    justify-content: space-between;
+    width: 28em;
+}
+.email{
+    padding-left: 2.6em;
+}
+.Email{
+    margin-right: 0em;
+    position: absolute;
+    left: 7.75em;
+}
+.Phone{
+    padding-left: 0em;
+    position: absolute;
+    left: 23em;
+}
+.phone{
+    margin-left: 2.4em;
+}
+.myinput{
+    position: absolute;
+    top: 20em;
+    left: 3em;
+    width: 34em;
+    outline: none;
+    border-top: none;
+    border-bottom-color: black;
+    border-left: none;
+    border-right: none;
+
+}
+.myinput1{
+    position: absolute;
+    top: 24em;
+    left: 3em;
+    width: 34em;
+    outline: none;
+    border-top: none;
+    border-bottom-color: black;
+    border-left: none;
+    border-right: none;
+}
+.myinput2{
+    position: absolute;
+    top: 28em;
+    left: 3em;
+    width: 34em;
+    outline: none;
+    border-top: none;
+    border-bottom-color: black;
+    border-left: none;
+    border-right: none;
+}
+.myinput3{
+    position: absolute;
+    top: 32em;
+    left: 3em;
+    width: 34em;
+    outline: none;
+    border-top: none;
+    border-bottom-color: black;
+    border-left: none;
+    border-right: none;
+}
+.MoreAboutMe1{
+    background-color: #d5c455;
+    color: white;
+    box-shadow: 0 0.125em 0.1875em rgba(0, 0, 0, 0.2);
+    padding: 0.8em;
+    font-weight: bold;
+    position: absolute;
+    top: 31.4em;
+    left: 2.5em;
+    
+}
+.MoreAboutMe1:hover{
+    background-color: #afaeae;
+    color: white;
+    cursor: pointer;
+    
+}
+.instagram{
+    position: absolute;
+    top: 23.9em;
+    right: 32.4em;
+    width: 1.7em;
+}
+.insta{
+    width: 2em;
+}
+.half1 h4{
+    position: absolute;
+    top: 18.5em;
+    left: 1.2em;
+    font-size: 2em;
+}
+.fb{
+    position: absolute;
+    top: 27.05em;
+    width: 1.4em;
+    left: 3.4em;
+}
+.linkedin{
+    position: absolute;
+    top: 27.3em;
+    width: 1.3em;
+    left: 5.4em;
+}
+.twitter{
+    position: absolute;
+    top: 27.27em;
+    left: 7.4em;
+    width: 1.4em;
+}
+.container4{
+    background-color: #f8f8f8;
+    height: 171%;
+    width: 100%;
+    position: absolute;
+}
+.half2 img{
+    height: 100%;
+    width: 38.9em;
+}

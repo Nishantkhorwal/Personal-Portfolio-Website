@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Fira+Sans&family=Lato:ital,wght@1,300&family=Phudu:wght@300&family=Roboto:wght@100&family=Source+Code+Pro:wght@300&family=Tilt+Neon&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.bars1{
+    position: absolute;
+    margin-top: 2.5em;
+    margin-left: 4em;
+    cursor: pointer;
+    right: 8em;
+}
+.noBar1{
+    display: none;
+}
+.cross1{
+    position: absolute;
+    margin-top: 2.5em;
+    margin-left: 4em;
+    cursor: pointer;
+    right: 8em;
+} 
+
+.list1{
+    width: 24vh;
+    margin-left: 29.5em;
+    margin-top: 4em;
+    position: absolute;
+    background-color: white;
+    border-radius: 0.12em;
+    display: none;
+}
+.open1{
+    right: 8em;
+    top: 2.5em;
+    width: 24vh;
+    margin-left: 29.5em;
+    margin-top: 4em;
+    position: absolute;
+    background-color: white;
+    border-radius: 0.12em;
+    display: block;
+    
+}
+.ul{
+    padding-left: 1em;
+    font-family: 'Tilt Neon', sans-serif;
+}
+.li{
+    list-style: none;
+    margin: 1.5em 0;
+    cursor: pointer;
+}
+.portfolio{
+    position: absolute;
+    top: 1em;
+    left: 2em;
+    font-family: 'Tilt Neon', sans-serif;
+}
+.home{
+    position: absolute;
+    font-size: 1.2em;
+    top: 10.2em;
+    left: 36em;
+    font-family: 'Tilt Neon', sans-serif;
+}
+.chevron{
+    font-size: 0.6em;
+    margin-left: 0.2em;
+    margin-bottom: 0.05em;
+}
+.about{
+    position: absolute;
+    top: 10.2em;
+    left: 39.4em;
+    font-size: 1.2em;
+    font-family: 'Tilt Neon', sans-serif;
+}
+.skillDesc{
+    width: 20em;
+    height: 2em;
+    position: absolute;
+    top: 23.5em;
+    left: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Tilt Neon', sans-serif;
+}
+.hundred{
+    position: absolute;
+    background-color: #e4e2e2;
+    height: 0.6em;
+    width: 21em;
+    top: 25.5em;
+    left: 4em;
+    border-radius: 0.2em;
+}
+.Percent{
+    background-color: #d5c455;
+    width: 95%;
+    height: 0.6em;
+    border-radius: 0.2em;
+}
+.skillDesc2{
+    width: 20em;
+    height: 2em;
+    position: absolute;
+    top: 23.5em;
+    left: 30em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Tilt Neon', sans-serif;
+}
+.hundred2{
+    position: absolute;
+    background-color: #e4e2e2;
+    height: 0.6em;
+    width: 21em;
+    top: 25.5em;
+    left: 30em;
+    border-radius: 0.2em;
+}
+.Percent2{
+    background-color: #d5c455;
+    width: 90%;
+    height: 0.6em;
+    border-radius: 0.2em;
+}
+.skillDesc3{
+    width: 20em;
+    height: 2em;
+    position: absolute;
+    top: 27.5em;
+    left: 30em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Tilt Neon', sans-serif;
+}
+.hundred3{
+    position: absolute;
+    background-color: #e4e2e2;
+    height: 0.6em;
+    width: 21em;
+    top: 29.5em;
+    left: 30em;
+    border-radius: 0.2em;
+}
+.Percent3{
+    background-color: #d5c455;
+    width: 60%;
+    height: 0.6em;
+    border-radius: 0.2em;
+}
+.skillDesc4{
+    width: 20em;
+    height: 2em;
+    position: absolute;
+    top: 27.5em;
+    left: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Tilt Neon', sans-serif;
+}
+.hundred4{
+    position: absolute;
+    background-color: #e4e2e2;
+    height: 0.6em;
+    width: 21em;
+    top: 29.5em;
+    left: 4em;
+    border-radius: 0.2em;
+}
+.Percent4{
+    background-color: #d5c455;
+    width: 65%;
+    height: 0.6em;
+    border-radius: 0.2em;
+}
+.skillDesc5{
+    width: 20em;
+    height: 2em;
+    position: absolute;
+    top: 31.5em;
+    left: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Tilt Neon', sans-serif;
+}
+.hundred5{
+    position: absolute;
+    background-color: #e4e2e2;
+    height: 0.6em;
+    width: 21em;
+    top: 33.5em;
+    left: 4em;
+    border-radius: 0.2em;
+}
+.Percent5{
+    background-color: #d5c455;
+    width: 90%;
+    height: 0.6em;
+    border-radius: 0.2em;
+}
+.skillDesc6{
+    width: 20em;
+    height: 2em;
+    position: absolute;
+    top: 31.5em;
+    left: 30em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Tilt Neon', sans-serif;
+}
+.hundred6{
+    position: absolute;
+    background-color: #e4e2e2;
+    height: 0.6em;
+    width: 21em;
+    top: 33.5em;
+    left: 30em;
+    border-radius: 0.2em;
+}
+.Percent6{
+    background-color: #d5c455;
+    width: 70%;
+    height: 0.6em;
+    border-radius: 0.2em;
+}
+.skillDesc7{
+    width: 20em;
+    height: 2em;
+    position: absolute;
+    top: 35.5em;
+    left: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Tilt Neon', sans-serif;
+}
+.hundred7{
+    position: absolute;
+    background-color: #e4e2e2;
+    height: 0.6em;
+    width: 21em;
+    top: 37.5em;
+    left: 4em;
+    border-radius: 0.2em;
+}
+.Percent7{
+    background-color: #d5c455;
+    width: 60%;
+    height: 0.6em;
+    border-radius: 0.2em;
+}
+.aboutus{
+    position: absolute;
+    top: 4.9em;
+    left: 13.7em;
+    font-size: 3em;
+    font-family: 'Tilt Neon', sans-serif;
+}
+.skills{
+    width: 23em;
+    height: 1em;
+    top: 5em;
+    position: absolute;
+    font-family: 'Tilt Neon', sans-serif;
+    
+}
+.skillsHead{
+    position: absolute;
+    top: 12em;
+    left: 2em;
+    color:  #d5c455;
+    font-family: 'Tilt Neon', sans-serif;
+}
+.AboutUs{
+    top: 12em;
+    right: 15em;
+    position: absolute;
+    color: #d5c455;
+    font-family: 'Tilt Neon', sans-serif;
+}
+.AboutDesc{
+    font-size: 2.3em;
+    position: absolute;
+    top: 11.8em;
+    right: 6.6em;
+    font-family: 'Tilt Neon', sans-serif;
+}
+.flex{
+    height: 11em;
+    width: 30em;
+    position: absolute;
+    top: 31em;
+    right: 8.4em;
+    display: flex;
+}
+.desc1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-weight: bold;
+    font-family: 'Tilt Neon', sans-serif;
+
+}
+.d1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5em 0;
+}
+.d11{
+    font-size: 1em;
+}
+.d12{
+    padding-right: 5em;
+    font-size: 1em;
+}
+.d13{
+    font-size: 1em;
+    width: 8em;
+}
+.d14{
+    padding-right: 3.6em;
+    font-size: 1em;
+}
+.d16{
+    padding-right: 3.6em;
+    font-size: 1em;
+
+}
+.desc2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-weight: bold;
+    font-family: 'Tilt Neon', sans-serif;
+}
+.d17{
+    margin-right: 3em;
+    font-size: 1em;
+}
+.d18{
+    padding-left: 4.5em;
+}
+.container3{
+    background-color: #f8f8f8;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.btn{
+    position: absolute;
+    top: 46em;
+    right: 37.9em;
+    padding: 1.1em;
+    border-radius: 0.4em;
+    font-weight: bold;
+    color: white;
+    background-color: #d5c455;
+    border-color: #d5c455;
+    cursor: pointer;
+    font-family: 'Tilt Neon', sans-serif;
+}
